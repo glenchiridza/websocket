@@ -1,4 +1,4 @@
-package org.glenchiridza.websockets;
+package org.glenchiridza.websockets.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
