@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Application Websocket Application (RAWA)</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="user-page">
+    <div class="user-page-controller">
+        <h1 class="title">Username</h1>
+        <form id="userForm" name="userForm">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Username" class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="accent user-submit"> Enter Room</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script src="/js/sockjs.min.js"></script>
+<script src="/js/stomp.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
